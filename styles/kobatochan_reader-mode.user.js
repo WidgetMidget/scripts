@@ -1,4 +1,6 @@
 @-moz-document domain("kobatochan.com") {
+/* Version: 1.1.2 */
+
 /* Actual content, the place where the chapters are. This is simply expanding it to be the same size as the menu. */
 .three-columns #primary {
     width: 1268px !important;
