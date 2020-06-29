@@ -2,7 +2,7 @@
 // @name        [WM] Kobatochan.com Accesskey Navigation
 // @namespace   WidgetMidget
 // @description Ctrl + Arrow key navigation.
-// @version     1.2.3
+// @version     1.2.4
 // @updateURL   https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/kobatochan/accesskey_navigation.user.js
 // @downloadURL https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/kobatochan/accesskey_navigation.user.js
 // @supportURL  https://github.com/WidgetMidget/scripts-and-userstyles/issues
