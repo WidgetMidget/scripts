@@ -1,0 +1,78 @@
+@-moz-document domain("kobatochan.com") {
+/* Actual content, the place where the chapters are. This is simply expanding it to be the same size as the menu. */
+.three-columns #primary {
+    width: 1268px !important;
+    position: relative;
+        left: 66px;
+}
+
+/* This increases the padding so the text looks better inside the chapter content. */
+.hentry, .no-results, #author-info, #disqus_thread, #content .error404, .widget, #supplementary .widget, #comments {
+    margin-bottom: 35px;
+    padding: 35px;
+        padding-right: 100px;
+        padding-left: 100px;
+}
+
+/* This part means that the chapter content isn't pushed to the right by the colum on the left side. */
+.three-columns .content-sidebar-wrap {
+    float: none;
+}
+
+/* Removes the colum on the left side. */
+.three-columns #third-sidebar {
+    display: none;
+    
+}
+
+/* Removes the colum on the right side. */
+#secondary {
+    display: none;
+}
+
+/* Removes the header image. */
+#header-image {
+    display: none
+}
+
+/* Moves banner branding. */
+#logo-wrap {
+    position: relative;
+        left: 63px;
+}
+
+/* Moves banner branding search and sets the search box to white always. */
+#sidebar-header-right {
+    position: relative;
+        right: 65px;
+}
+
+/* Fixes search box having a dark overlay once selected. */
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], textarea {
+    background: #fafafa !important;
+}
+
+/* Removing empty widget divs at the bottom of the page */
+#first {
+    display: none
+}
+
+/* Making the body ending a bit nicer, removing the unnecessary padding and changing the custom background color to the same as the document instead of the random blue one. */
+body.custom-background {
+    background-color: #222222;
+    padding-bottom: 0px;
+}
+
+/* Just some stuff for the homepage after this, not *really* related to chapters, aside from the fact that I noticed it while I was working on it. */
+/* Changing the colors of the homepage pagination buttons */
+.pgntn-page-pagination-intro, .pgntn-page-pagination .current, a.page-numbers {
+    background-color: #292929 !important;
+    color: #fff !important;
+    border: 1px solid #464646 !important;
+}
+
+/* Centers the homepage pagination div. */
+.pgntn-page-pagination-block {
+    margin: auto;
+}
+}
