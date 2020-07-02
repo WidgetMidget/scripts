@@ -3,8 +3,8 @@
 // @namespace   WidgetMidget
 // @description Ctrl + Arrow key navigation.
 // @version     1.3.1
-// @updateURL   https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/kobatochan/accesskey_navigation.user.js
-// @downloadURL https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/kobatochan/accesskey_navigation.user.js
+// @updateURL   https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/kobatochan_accesskey-navigation.user.js
+// @downloadURL https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/kobatochan_accesskey-navigation.user.js
 // @supportURL  https://github.com/WidgetMidget/scripts-and-userstyles/issues
 // @match       *://*.kobatochan.com/*
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
