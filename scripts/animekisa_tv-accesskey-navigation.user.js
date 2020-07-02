@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name        [WM] Accesskey Navigation for Animekisa.tv
 // @namespace   WidgetMidget
-// @description Ctrl + Arrow key navigation.
-// @version     1.0.0
+// @description Ctrl + Arrow Key navigation.
+// @version     1.0.3
 // @updateURL	https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/animekisa_tv-accesskey-navigation.user.js
 // @downloadURL https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/animekisa_tv-accesskey-navigation.user.js
 // @supportURL  https://github.com/WidgetMidget/scripts-and-userstyles/issues

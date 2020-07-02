@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        [WM] Accesskey Navigation for Kobatochan.com
 // @namespace   WidgetMidget
-// @description Ctrl + Arrow key navigation.
+// @description Ctrl + Arrow Key navigation.
 // @version     1.3.1
 // @updateURL   https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/kobatochan_com-accesskey-navigation.user.js
 // @downloadURL https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/kobatochan_com-accesskey-navigation.user.js
