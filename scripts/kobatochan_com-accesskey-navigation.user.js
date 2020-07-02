@@ -4,7 +4,7 @@
 // @author      WidgetMidget
 // @description Ctrl + Arrow Key navigation.
 // @version     1.5.4
-// @icon		https://www.google.com/s2/favicons?domain=kobatochan.com
+// @icon	https://www.google.com/s2/favicons?domain=kobatochan.com
 // @updateURL   https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/kobatochan_com-accesskey-navigation.user.js
 // @downloadURL https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/kobatochan_com-accesskey-navigation.user.js
 // @supportURL  https://github.com/WidgetMidget/scripts-and-userstyles/issues
