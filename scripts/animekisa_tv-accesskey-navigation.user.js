@@ -4,7 +4,7 @@
 // @author      WidgetMidget
 // @description Ctrl + Arrow Key navigation.
 // @version     1.0.5
-// @icon		https://www.google.com/s2/favicons?domain=animekisa.tv
+// @icon	https://www.google.com/s2/favicons?domain=animekisa.tv
 // @updateURL	https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/animekisa_tv-accesskey-navigation.user.js
 // @downloadURL https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/animekisa_tv-accesskey-navigation.user.js
 // @supportURL  https://github.com/WidgetMidget/scripts-and-userstyles/issues
