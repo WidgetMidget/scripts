@@ -1,0 +1,1 @@
+Scripts placed in the root scripts folder will be noted here and are likely to be general purpose compared to specilized ones that get their own folders.
