@@ -35,26 +35,31 @@ function N(e) {
 }
 */
 
-$( "jw-tab-focus" ).off();
+//$( "jw-tab-focus" ).off();
+
+//$('#textarea').blur()
 
 document.addEventListener('keydown', function(e){
-  if (e.ctrlKey && !e.shiftKey && !e.altKey && !e.metaKey)
-  {
-    switch (e.keyCode)
-    {
-      case 37:
-        alert('37');
-        //if (!window.my-video1) return false;
-        $( "jw-tab-focus" ).off();
-        $("#playerselector").find("option:selected").prev().prop("selected", true).trigger("change");
-      break;
-      case 39:
-        alert('39');
-        $("#playerselector").find("option:selected").next().prop("selected", true).trigger("change");
-      break;
-    }
-  }
-}, true);
+	if (e.ctrlKey && !e.shiftKey && !e.altKey && !e.metaKey)
+	{
+	  switch (e.keyCode)
+	  {
+		case 37:
+		  alert('37');
+		  //if (!window.my-video1) return false;
+		  //$( "jw-tab-focus" ).off();
+		  $('#jw-tab-focus').blur() {
+			alert('blur');
+		  }
+		  $("#playerselector").find("option:selected").prev().prop("selected", true).trigger("change");
+		break;
+		case 39:
+		  alert('39');
+		  $("#playerselector").find("option:selected").next().prop("selected", true).trigger("change");
+		break;
+	  }
+	}
+  }, true);
 
 /*
 function(n) {
