@@ -48,9 +48,7 @@ document.addEventListener('keydown', function(e){
 		  alert('37');
 		  //if (!window.my-video1) return false;
 		  //$( "jw-tab-focus" ).off();
-		  $('focus').blur() {
-			alert('blur');
-		  };
+		  //$(":contains('jw-tab-focus')").blur() { alert('blur') };
 		  $("#playerselector").find("option:selected").prev().prop("selected", true).trigger("change");
 		break;
 		case 39:
