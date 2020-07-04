@@ -29,23 +29,32 @@ document.addEventListener('keydown', function(e){
   }
 }, true);
 */
-document.addEventListener('keydown', function(fancyEventName){
-	if (fancyEventName.ctrlKey && !fancyEventName.shiftKey && !fancyEventName.altKey && !fancyEventName.metaKey)
-	{
-	  switch (fancyEventName.keyCode)
-	  {
-		case 37:
-		  alert('37');
-		  if (!window.__cfRLUnblockHandlers) return false;
-		  $("#playerselector").find("option:selected").prev().prop("selected", true).trigger("change");
-		break;
-		case 39:
-		  alert('39');
-		  $("#playerselector").find("option:selected").next().prop("selected", true).trigger("change");
-		break;
-	  }
-	}
-  }, true);
+/*
+function N(e) {
+  E && E.showing && (e.relatedTarget && !u.contains(e.relatedTarget) || !e.relatedTarget && y.Features.iframe) && E.userActive()
+}
+*/
+
+$( "jw-tab-focus" ).off();
+
+document.addEventListener('keydown', function(e){
+  if (e.ctrlKey && !e.shiftKey && !e.altKey && !e.metaKey)
+  {
+    switch (e.keyCode)
+    {
+      case 37:
+        alert('37');
+        //if (!window.my-video1) return false;
+        $( "jw-tab-focus" ).off();
+        $("#playerselector").find("option:selected").prev().prop("selected", true).trigger("change");
+      break;
+      case 39:
+        alert('39');
+        $("#playerselector").find("option:selected").next().prop("selected", true).trigger("change");
+      break;
+    }
+  }
+}, true);
 
 /*
 function(n) {
