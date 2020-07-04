@@ -39,13 +39,9 @@ function N(e) {
 
 //$('#textarea').blur()
 
-var foo = "foo"
+$('#iframemain').unbind()
 
-$(function(){
-      // since foo is global, i can alert it here
-      alert(foo);
-      // this is a local variable
-  document.addEventListener('keydown', function(e){
+document.addEventListener('keydown', function(e){
   if (e.ctrlKey && !e.shiftKey && !e.altKey && !e.metaKey)
   {
     switch (e.keyCode)
@@ -64,7 +60,6 @@ $(function(){
     }
   }
 }, true);
-});
 
 /*
 function(n) {
