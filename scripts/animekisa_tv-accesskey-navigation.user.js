@@ -29,22 +29,23 @@ document.addEventListener('keydown', function(e){
   }
 }, true);
 */
-document.addEventListener('keydown', function(e){
-	if (e.ctrlKey && !e.shiftKey && !e.altKey && !e.metaKey)
+document.addEventListener('keydown', function(fancyEventName){
+	if (fancyEventName.ctrlKey && !fancyEventName.shiftKey && !fancyEventName.altKey && !fancyEventName.metaKey)
 	{
-		switch (e.keyCode)
-		{
-			case 37:
-				alert('37');
-				$("#playerselector").find("option:selected").prev().prop("selected", true).trigger("change");
-			break;
-			case 39:
-				alert('39');
-				$("#playerselector").find("option:selected").next().prop("selected", true).trigger("change");
-			break;
-		}
+	  switch (fancyEventName.keyCode)
+	  {
+		case 37:
+		  alert('37');
+		  if (!window.__cfRLUnblockHandlers) return false;
+		  $("#playerselector").find("option:selected").prev().prop("selected", true).trigger("change");
+		break;
+		case 39:
+		  alert('39');
+		  $("#playerselector").find("option:selected").next().prop("selected", true).trigger("change");
+		break;
+	  }
 	}
-}, true);
+  }, true);
 
 /*
 function(n) {
