@@ -29,24 +29,22 @@ document.addEventListener('keydown', function(e){
   }
 }, true);
 */
-
-$input.keydown(function(e){ e.stopPropagation();});
-
 document.addEventListener('keydown', function(e){
-  if (e.ctrlKey && !e.shiftKey && !e.altKey && !e.metaKey)
-  {
-    switch (e.keyCode)
-    {
-      case 37:
-        $("#playerselector").find("option:selected").prev().prop("selected", true).trigger("change");
-      break;
-      case 39:
-        $("#playerselector").find("option:selected").next().prop("selected", true).trigger("change");
-      break;
-    }
-  }
+	if (e.ctrlKey && !e.shiftKey && !e.altKey && !e.metaKey)
+	{
+		switch (e.keyCode)
+		{
+			case 37:
+				alert('37');
+				$("#playerselector").find("option:selected").prev().prop("selected", true).trigger("change");
+			break;
+			case 39:
+				alert('39');
+				$("#playerselector").find("option:selected").next().prop("selected", true).trigger("change");
+			break;
+		}
+	}
 }, true);
-
 
 /*
 function(n) {
