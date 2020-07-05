@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] Kobatochan Reader Mode
-@version        1.1.2
+@version        1.2.2
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on kobatochan.com
 @namespace      https://github.com/WidgetMidget
@@ -85,5 +85,10 @@
     /* Centers the homepage pagination div. */
     .pgntn-page-pagination-block {
         margin: auto;
+    }
+
+    /* Removes mobile header */
+    #mobile-header-left-nav {
+        display: none
     }
 }
