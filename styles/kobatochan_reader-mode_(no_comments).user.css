@@ -1,6 +1,6 @@
 /* ==UserStyle==
-@name           [WM] Kobatochan Reader Mode
-@version        1.1.2
+@name           [WM] Kobatochan Reader Mode (no comments)
+@version        1.0.0
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on kobatochan.com
 @namespace      https://github.com/WidgetMidget/scripts-and-userstyles
@@ -9,7 +9,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("kobatochan.com") {
-	/* Actual content, the place where the chapters are. This is simply expanding it to be the same size as the menu. */
+    /* Actual content, the place where the chapters are. This is simply expanding it to be the same size as the menu. */
     .three-columns #primary {
         width: 1268px !important;
         position: relative;
@@ -84,5 +84,10 @@
     /* Centers the homepage pagination div. */
     .pgntn-page-pagination-block {
         margin: auto;
+    }
+
+    /* Removes comment section */
+    #comments {
+        display: none
     }
 }
