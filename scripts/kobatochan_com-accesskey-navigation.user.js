@@ -3,8 +3,8 @@
 // @namespace	https://github.com/WidgetMidget/scripts-and-userstyles
 // @author      WidgetMidget
 // @description Ctrl + Arrow Key navigation.
-// @version     1.6.4
-// @icon	https://www.google.com/s2/favicons?domain=kobatochan.com
+// @version     2.6.7
+// @icon		https://www.google.com/s2/favicons?domain=kobatochan.com
 // @updateURL   https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/kobatochan_com-accesskey-navigation.user.js
 // @downloadURL https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/kobatochan_com-accesskey-navigation.user.js
 // @supportURL  https://github.com/WidgetMidget/scripts-and-userstyles/issues
@@ -24,6 +24,16 @@ var nxtCh = function(nxt){
     if ($(nxtId).attr("href") == "null") {} else {window.open($(nxtId).attr("href"),"_self")}
 }
 
+var prvPg = function(prv){
+    var prvPgId = $('div').find('a').filter(':contains("« Previous Page")');
+    if ($(prvPgId).attr("href") == "null") {} else {window.open($(prvPgId).attr("href"),"_self")}
+};
+
+var nxtPg = function(nxt){
+    var nxtPgId = $('div').find('a').filter(':contains("Next Page »")');
+    if ($(nxtPgId).attr("href") == "null") {} else {window.open($(nxtPgId).attr("href"),"_self")}
+}
+
 document.addEventListener('keydown', function(e){
 	if (e.ctrlKey)
 	{
@@ -31,6 +41,15 @@ document.addEventListener('keydown', function(e){
 		{
 			case 37: prvCh(-1); break;
 			case 39: nxtCh(1); break;
+		}
+	}
+
+	if (e.shiftKey)
+	{
+		switch (e.keyCode)
+		{
+			case 37: prvPg(-1); break;
+			case 39: nxtPg(1); break;
 		}
 	}
 }, false);
