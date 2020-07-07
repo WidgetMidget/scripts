@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] Kobatochan Reader Mode (no comments)
-@version        1.1.0
+@version        1.3.0
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on kobatochan.com
 @namespace      https://github.com/WidgetMidget
@@ -77,8 +77,8 @@
     }
 
     /* Just some stuff for the homepage after this, not *really* related to chapters, aside from the fact that I noticed it while I was working on it. */
-    /* Changing the colors of the homepage pagination buttons */
-    .pgntn-page-pagination-intro, .pgntn-page-pagination .current, a.page-numbers {
+    /* Changing the colors of the homepage, and chapter, pagination buttons */
+    .pgntn-page-pagination-intro, .pgntn-page-pagination .current, a.page-numbers, .pgntn-page-pagination a {
         background-color: #292929 !important;
         color: #fff !important;
         border: 1px solid #464646 !important;
