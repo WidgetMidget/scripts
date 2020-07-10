@@ -5,3 +5,9 @@ Focuses on making the reading experience more pleasant. You can install it from 
 It removes removes side columns, the banner image, centers the chapter content, pads it and expands the reading area, banner logo and search.
 
 ![comparison1](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/Kabotochan%20reader%20mode%20comparison.png)
+
+## Hornyjail for Redditors
+
+Just a fun little thing I made while bored, I'll update it as I go. All it does is send you to hornyjail.
+
+![comparison2](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/hornyjail.png)
