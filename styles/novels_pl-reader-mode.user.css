@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] Novels.pl Reader Mode
-@version        2.1.38
+@version        2.1.43
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on novels.pl. Requires "[WM] Userstyle companion for Novels.pl" for complete experience.
 @namespace      https://github.com/WidgetMidget
@@ -66,6 +66,11 @@
     
     /* Changes button color */
     .pager li > a, .pager li > span {
+        background-color: #464545;
+    }
+
+    /* Changes button color for disabled buttons */
+    .pager .disabled > a, .pager .disabled > a:hover, .pager .disabled > a:focus, .pager .disabled > span {
         background-color: #464545;
     }
     
