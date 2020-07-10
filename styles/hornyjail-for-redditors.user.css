@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name           [WM] Hornyjail for Redditors
+@version        1.1.37
+@author         WidgetMidget
+@description    Hornyjail! Hornyjail! Hornyjail! MORE REDDITORS FOR THE HORNYJAIL THRONE!
+@namespace      https://github.com/WidgetMidget
+@homepageURL    https://github.com/WidgetMidget/scripts-and-userstyles
+@supportURL     https://github.com/WidgetMidget/scripts-and-userstyles/issues
+@updateURL      https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/styles/hornyjail-for-redditors.user.css
+==/UserStyle== */
+
+@-moz-document regexp("(http|https)://www\\.reddit\\.(com)/r/(nsfw|Nsfw|NSFW|porn|Porn|PORN|hentai|Hentai|HENTAI).*/.*") {
+    body {
+        visibility: hidden;
+        background: url("https://github.com/WidgetMidget/scripts-and-userstyles/resources/hornyjail.png");
+        background-position: center top;
+    }
+}
+
+@-moz-document regexp("(http|https)://www\\.reddit\\.(com)/r/(gonewild|RealGirls|holdthemoan|LegalTeens|cumsluts|rule34)/.*") {
+    body {
+        visibility: hidden;
+        background: url("https://github.com/WidgetMidget/scripts-and-userstyles/resources/hornyjail.png");
+        background-position: center top;
+    }
+}
