@@ -39,7 +39,7 @@ function N(e) {
 
 //$('#textarea').blur()
 
-$('#iframemain').unbind()
+//$('#iframemain').unbind()
 
 document.addEventListener('keydown', function(e){
   if (e.ctrlKey && !e.shiftKey && !e.altKey && !e.metaKey)
@@ -47,14 +47,18 @@ document.addEventListener('keydown', function(e){
     switch (e.keyCode)
     {
       case 37:
-        alert('37');
+
+        //alert('37');
+
         //if (!window.my-video1) return false;
         //$( "jw-tab-focus" ).off();
         //$(":contains('jw-tab-focus')").blur() { alert('blur') };
         $("#playerselector").find("option:selected").prev().prop("selected", true).trigger("change");
       break;
       case 39:
-        alert('39');
+
+        //alert('39');
+
         $("#playerselector").find("option:selected").next().prop("selected", true).trigger("change");
       break;
     }
