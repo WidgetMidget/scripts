@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] Novels.pl Reader Mode
-@version        2.1.34
+@version        2.1.36
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on novels.pl. Requires "[WM] Userstyle companion for Novels.pl" for complete experience.
 @namespace      https://github.com/WidgetMidget
@@ -21,26 +21,47 @@
     .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
         background-color: #222222;
     }
+    
+    /* Changes searchbar background color */
+    .navbar-form .form-control {
+        background-color: #2d2d2d;
+    }
 }
 
 @-moz-document regexp("(http|https)://www\\.novels\\.(pl)/novel/.*") {
     /* Path specific changes */
     
-    /* Removes left and right panel recommendations */
+    /* Hides left and right panel recommendations and and lets you see them on hover. Has a small transition for maximum swag. */
     .col-sm-2 {
-        display: none
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .col-sm-2:hover {
+        opacity: 1;
+        transition: opacity 0.3s;
     }
     
-    /* Removes comments section. Never really seen it in use, so doubt it'll ever be necessary. */
+    /* Removes comments section. Never really seen it in use, so doubt it'll ever be necessary */
+    /* Might sometimes be buggy because it has to use nth-child, but the site is pretty uniform on chapter pages so I think it'll be fine */
     div.panel:nth-child(13) {
         display: none;
     }
     
-    .navbar {
-      position: fixed; /* Make it stick/fixed */
-      top: 0; /* Stay on top */
-      transition: top 0.5s; /* Transition effect when sliding down (and up) */
+    /* Locks navbar to top of page */
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: absolute;
     }
+    
+    /*
+    .navbar {
+      position: fixed; /* Make it stick/fixed */ /*
+      top: 0; /* Stay on top */ /*
+      transition: top 0.5s; /* Transition effect when sliding down (and up) */ /*
+    }
+    */    
+
+    /*
     .navbar {
         position: fixed;
         top: 0;
@@ -52,6 +73,15 @@
         opacity: 1;
         transition: opacity 0.3s;
     }
+    
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+        opacity: 1;
+    }
+    */
 
     /* Style the navbar links */
     /*
@@ -113,10 +143,5 @@
     /* Removes facebook like button */
     div.pull-left > img:nth-child(2) {
         display: none;
-    }
-    
-    /* Changes searchbar background color */
-    .navbar-form .form-control {
-        background-color: #2d2d2d;
     }
 }
