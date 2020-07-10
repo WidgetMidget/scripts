@@ -19,3 +19,13 @@ Adds two shortcuts to make browsing chapters more pleasant. You can install it f
   <dd>Previous chapter: CTRL + Left arrow key</dd>
   <dd>Next chapter: CTRL + Right arrow key</dd>
 </dl>
+
+## Accesskey Navigation for Novels.pl
+
+Adds two shortcuts to make browsing chapters more pleasant. You can install it from this repository, or [from here]() if you want.
+
+<dl>
+  <dt>Shortcuts:</dt>
+  <dd>Previous chapter: CTRL + Left arrow key</dd>
+  <dd>Next chapter: CTRL + Right arrow key</dd>
+</dl>
