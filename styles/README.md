@@ -4,4 +4,4 @@ Focuses on making the reading experience more pleasant. You can install it from 
 
 It removes removes side columns, the banner image, centers the chapter content, pads it and expands the reading area, banner logo and search.
 
-![comparison1](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/styles/images/Kabotochan%20reader%20mode%20comparison.png)
+![comparison1](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/Kabotochan%20reader%20mode%20comparison.png)
