@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] Novels.pl Reader Mode
-@version        2.1.31
+@version        2.1.34
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on novels.pl. Requires "[WM] Userstyle companion for Novels.pl" for complete experience.
 @namespace      https://github.com/WidgetMidget
@@ -8,6 +8,7 @@
 @supportURL     https://github.com/WidgetMidget/scripts-and-userstyles/issues
 @updateURL      https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/styles/novels_pl-reader-mode.user.css
 ==/UserStyle== */
+
 @-moz-document domain("novels.pl") {
     /* Global changes */
     
@@ -21,18 +22,13 @@
         background-color: #222222;
     }
 }
+
 @-moz-document regexp("(http|https)://www\\.novels\\.(pl)/novel/.*") {
     /* Path specific changes */
     
-    /* Hides left and right panel recommendations and and lets you see them on hover. Has a small transition for maximum swag. */
+    /* Removes left and right panel recommendations */
     .col-sm-2 {
-        opacity: 0.02;
-        transition: opacity 0.3s;
-    }
-
-    .col-sm-2:hover {
-        opacity: 1;
-        transition: opacity 0.3s;
+        display: none
     }
     
     /* Removes comments section. Never really seen it in use, so doubt it'll ever be necessary. */
