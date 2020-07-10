@@ -14,7 +14,7 @@ This does a couple a things. It changes the navbar color and searchbox backgroun
 
 If, for some reason, you happen to notice the comments aren't removed, please make an issue for it and link the page it happened. I was forced to use nth-child, but it *should* be fine. Chapter pages are practically identical.
 
-![comparison2](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/novels_pl-reader-mode-comparison.png)
+![comparison2](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/novels_pl-reader-mode-comparison-v2.png)
 
 ## Hornyjail for Redditors
 
