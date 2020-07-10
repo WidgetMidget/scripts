@@ -8,6 +8,6 @@ It removes removes side columns, the banner image, centers the chapter content, 
 
 ## Hornyjail for Redditors
 
-Just a fun little thing I made while bored, I'll update it as I go. All it does is send you to hornyjail.
+Just a fun little thing I made while bored, I'll update it as I go. All it does is send you to hornyjail if you visit any subreddits with nsfw, porn or hentai in it's name as well as some named ones like gonewild, etc.
 
 ![comparison2](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/hornyjail.png)
