@@ -1,0 +1,126 @@
+/* ==UserStyle==
+@name           [WM] Novels.pl Reader Mode
+@version        2.1.31
+@author         WidgetMidget
+@description    Creates a more pleasant reading experience on novels.pl. Requires "[WM] Userstyle companion for Novels.pl" for complete experience.
+@namespace      https://github.com/WidgetMidget
+@homepageURL    https://github.com/WidgetMidget/scripts-and-userstyles
+@supportURL     https://github.com/WidgetMidget/scripts-and-userstyles/issues
+@updateURL      https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/styles/novels_pl-reader-mode.user.css
+==/UserStyle== */
+@-moz-document domain("novels.pl") {
+    /* Global changes */
+    
+    /* Sets navbar color to the same as background */
+    .navbar-inverse {
+        background-color: #222222;
+    }
+    
+    /* Sets navbar active-button color to the same as background */
+    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+        background-color: #222222;
+    }
+}
+@-moz-document regexp("(http|https)://www\\.novels\\.(pl)/novel/.*") {
+    /* Path specific changes */
+    
+    /* Hides left and right panel recommendations and and lets you see them on hover. Has a small transition for maximum swag. */
+    .col-sm-2 {
+        opacity: 0.02;
+        transition: opacity 0.3s;
+    }
+
+    .col-sm-2:hover {
+        opacity: 1;
+        transition: opacity 0.3s;
+    }
+    
+    /* Removes comments section. Never really seen it in use, so doubt it'll ever be necessary. */
+    div.panel:nth-child(13) {
+        display: none;
+    }
+    
+    .navbar {
+      position: fixed; /* Make it stick/fixed */
+      top: 0; /* Stay on top */
+      transition: top 0.5s; /* Transition effect when sliding down (and up) */
+    }
+    .navbar {
+        position: fixed;
+        top: 0;
+        opacity: 0.02;
+        transition: opacity 0.3s;
+    }
+
+    .navbar:hover {
+        opacity: 1;
+        transition: opacity 0.3s;
+    }
+
+    /* Style the navbar links */
+    /*
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    */
+    
+    /* Hides menu and shows on hover*/
+    /*
+    .navbar {
+        opacity: 0;
+    }
+
+    .navbar:hover {
+        opacity: 1;
+    }
+    */
+    
+    /*
+    .navbar {
+        visibility: hidden
+    }
+    
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    */
+    
+    /* Changes background color of chapter index and chapter, as well as removing borders */
+    .panel {
+        border: none;
+        background-color: #292929;
+    }
+    
+    /* Changes headers of chapter index and chapter */
+    .panel-default > .panel-heading {
+        background-color: #3a3a3a;
+    }
+    
+    /* Changes button color */
+    .pager li > a, .pager li > span {
+        background-color: #464545;
+    }
+    
+    /* Changes link color */
+    a {
+        color: #337ab7;
+    }
+    
+    /* Removes facebook like button */
+    div.pull-left > img:nth-child(2) {
+        display: none;
+    }
+    
+    /* Changes searchbar background color */
+    .navbar-form .form-control {
+        background-color: #2d2d2d;
+    }
+}
