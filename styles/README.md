@@ -16,8 +16,10 @@ If, for some reason, you happen to notice the comments aren't removed, please ma
 
 ![comparison2](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/novels_pl-reader-mode-comparison-v2.png)
 
-## Hornyjail for Redditors
+## Hornyjail for Redditors (WIP)
 
 Just a fun little thing I made while bored, I'll update it as I go. All it does is send you to hornyjail if you visit any subreddits with nsfw, porn or hentai in it's name as well as some named ones like gonewild, etc.
+
+It might still be buggy, so please do make a Issue for it if you notice it not loading correctly.
 
 ![comparison3](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/hornyjail.png)
