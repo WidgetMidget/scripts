@@ -1,4 +1,4 @@
-## http to https redirect
+## Http to https redirect
 
 There shouldn't be much need to explain this, they're just simple scripts to redirect from an unencrypted standard to an encrypted one.
 
