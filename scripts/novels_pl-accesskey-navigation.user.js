@@ -3,8 +3,8 @@
 // @namespace   https://github.com/WidgetMidget/scripts-and-userstyles
 // @author      WidgetMidget
 // @description Ctrl + Arrow Key navigation.
-// @version     1.2.9
-// @icon        https://github.com/WidgetMidget/scripts-and-userstyles/resources/favicons/novels-pl.png
+// @version     1.2.10
+// @icon        https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/novels-pl.png
 // @updateURL   https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/novels_pl-accesskey-navigation.user.js
 // @downloadURL https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/novels_pl-accesskey-navigation.user.js
 // @supportURL  https://github.com/WidgetMidget/scripts-and-userstyles/issues

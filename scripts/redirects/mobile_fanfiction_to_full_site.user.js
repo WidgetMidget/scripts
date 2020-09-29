@@ -2,8 +2,8 @@
 // @name         [WM] Fanfiction.net mobile to full site redirect
 // @namespace	 https://github.com/WidgetMidget/scripts-and-userstyles
 // @author       WidgetMidget
-// @version      2.3.7
-// @icon         https://github.com/WidgetMidget/scripts-and-userstyles/resources/favicons/fanfiction-net.png
+// @version      2.3.8
+// @icon         https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/fanfiction-net.png
 // @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/mobile_fanfiction_to_full_site.user.js
 // @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/mobile_fanfiction_to_full_site.user.js
 // @supportURL   https://github.com/WidgetMidget/scripts-and-userstyles/issues
