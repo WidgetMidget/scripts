@@ -3,7 +3,7 @@
 // @namespace   https://github.com/WidgetMidget/scripts-and-userstyles
 // @author      WidgetMidget
 // @description Ctrl + Arrow Key navigation.
-// @version     1.1.29
+// @version     1.1.30
 // @icon        https://github.com/WidgetMidget/scripts-and-userstyles/resources/favicons/animekisa-tv.png
 // @updateURL   https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/animekisa_tv-accesskey-navigation.user.js
 // @downloadURL https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/animekisa_tv-accesskey-navigation.user.js
