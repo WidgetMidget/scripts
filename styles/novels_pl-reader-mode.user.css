@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] Novels.pl Reader Mode
-@version        2.1.43
+@version        2.2.43
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on novels.pl. Requires "[WM] Userstyle companion for Novels.pl" for complete experience.
 @namespace      https://github.com/WidgetMidget
@@ -76,7 +76,16 @@
     
     /* Changes link color */
     a {
-        color: #337ab7;
+        color: #4099e6 !important;
+    }
+    
+    a:visited {
+        color: #337ab7 !important;
+    }
+       
+    a:hover, a:focus {
+        color: #0ce3ac !important;
+        text-decoration: underline !important;
     }
     
     /* Removes facebook like button */
