@@ -23,3 +23,7 @@ This simply takes any link from invidio.us and redirects it to youtube.com inste
 ## Youtube.com to invidio.us
 
 Likewise, this does the exact opposite. Sending any youtube links to invido.us instead.
+
+# Google to DuckDuckGo
+
+While Google is nice and all, sometimes I prefer not having big brother peering over my shoulder to berate my degenerate tastes. Thus, should I forget myself, this little script grabs the search query from Google, and redirects to DuckDuckGo while keeping said query. It's pretty nice.
