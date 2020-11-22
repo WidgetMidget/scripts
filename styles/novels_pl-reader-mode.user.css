@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] Novels.pl Reader Mode
-@version        2.3.45
+@version        2.4.46
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on novels.pl. Requires "[WM] Userstyle companion for Novels.pl" for complete experience.
 @namespace      https://github.com/WidgetMidget
@@ -87,5 +87,16 @@
     /* Removes facebook like button */
     div.pull-left > img:nth-child(2) {
         display: none;
+    }
+    
+    /* Hides the bottom right back-to-top button until hovered */
+    #back-to-top {
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    #back-to-top:hover {
+        opacity: 1;
+        transition: opacity 0.3s;
     }
 }
