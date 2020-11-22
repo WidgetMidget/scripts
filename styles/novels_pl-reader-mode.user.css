@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] Novels.pl Reader Mode
-@version        2.2.44
+@version        2.3.45
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on novels.pl. Requires "[WM] Userstyle companion for Novels.pl" for complete experience.
 @namespace      https://github.com/WidgetMidget
@@ -25,6 +25,11 @@
     /* Changes searchbar background color */
     .navbar-form .form-control {
         background-color: #2d2d2d;
+    }
+    
+	/* Removes the facebook widget */
+    #facebook_slider_widget {
+        display: none;
     }
 }
 
