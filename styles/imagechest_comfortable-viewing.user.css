@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] ImageChest comfortable viewing
-@version        1.0.0
+@version        1.0.1
 @author         WidgetMidget
 @description    Creates a more pleasant viewing experience on imagechest galleries
 @namespace      https://github.com/WidgetMidget
@@ -11,7 +11,7 @@
 
 @-moz-document url-prefix("https://imgchest.com/p/") {
     /* random shit on the right side (div.col-md-4:nth-child(2)) */
-    .col-md-4 {
+    .side-div {
         display: none;
     }
     
