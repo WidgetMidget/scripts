@@ -26,7 +26,7 @@ This is something I quickly threw together when I went to their site after a lon
 
 I've come across this site through Reddit quite a few times now and it annoys me that the right sidebar is filled with stuff I don't care about while the image is only 66% in size. That makes it somewhat annoying to read text, which is why I made this.
 
-![comparison5](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/imagechest-comparison_v2.png)
+![comparison5](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/imagechest-comparison_v1.png)
 
 ## Hornyjail for Redditors (WIP)
 
