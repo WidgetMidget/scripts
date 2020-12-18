@@ -28,7 +28,15 @@ I've come across this site through Reddit quite a few times now and it annoys me
 
 ![comparison5](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/imagechest-comparison_v1.png)
 
-## Hornyjail for Redditors (WIP)
+## Webtoons Reader Mode
+
+I was about to read a comic that looked fairly interesting, but the site was making my eyes bleed, so I instead wasted the few moments it took to fix it. Nothing special about this one.
+
+Only thing to note is that I left the navbar at the top of the window in the picture, it is normally hidden by default regardless of if this stylesheet is active or not.
+
+![comparison6](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/webtoons-reader-mode-comparison.png)
+
+## Hornyjail for Redditors (WIP (basically non-functional))
 
 Just a fun little thing I made while bored, I'll update it as I go. All it does is send you to hornyjail if you visit any subreddits with nsfw, porn or hentai in it's name as well as some named ones like gonewild, etc.
 

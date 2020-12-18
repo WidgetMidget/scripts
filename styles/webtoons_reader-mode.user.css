@@ -1,0 +1,53 @@
+/* ==UserStyle==
+@name           [WM] Webtoons Reader Mode
+@version        1.0.48
+@author         WidgetMidget
+@description    Creates a more pleasant reading experience on webtoons
+@namespace      https://github.com/WidgetMidget
+@homepageURL    https://github.com/WidgetMidget/scripts-and-userstyles
+@supportURL     https://github.com/WidgetMidget/scripts-and-userstyles/issues
+@updateURL      https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/styles/webtoons_reader-mode.user.css
+==/UserStyle== */
+
+@-moz-document domain("webtoons.com") {
+    /* Sets the background color */
+    body {
+        background-color: #1c1c1c;
+    }
+    
+    /* Makes the support text white */
+    .dsc_encourage, .day_info {
+        color: #fff !important;
+    }
+    
+    /* Makes the update and support text, as well as the like/sub buttons darker */
+    .dsc_encourage, .day_info, ._readComplete, .spi_area {
+        opacity: 0.20;
+        transition: opacity 0.3s;
+    }
+    
+    /* Removes background on episode list */
+    #bottomEpisodeList {
+        background: none;
+    }
+    
+    /* Removes the bottom display, underneath the episodes */
+    #_bottomDisplay {
+        display: none;
+    }
+    
+    /* Removes the 'challenge spot' underneath the bottom display */
+    .challenge_spot {
+        display: none;
+    }
+    
+    /* Removes footer */
+    #footer {
+        display: none;
+    }
+    
+    /* Remmoves the padding under the footer */
+    #content {
+        padding: 0px;
+    }
+}
