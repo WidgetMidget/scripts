@@ -24,10 +24,26 @@ It's still slightly buggy. It works perfectly well as long as the player isn't i
 
 ## Accesskey Navigation for Novels.pl
 
-Adds two shortcuts to make browsing chapters more pleasant. You can install it from this repository, or [from here]() if you want.
+Adds two shortcuts to make browsing chapters more pleasant.
 
 <dl>
   <dt>Shortcuts:</dt>
   <dd>Previous chapter: CTRL + Left arrow key</dd>
   <dd>Next chapter: CTRL + Right arrow key</dd>
 </dl>
+
+## Accesskey Navigation for Webtoons.com
+
+Adds two shortcuts to make browsing chapters more pleasant. This currently does not work in the pagination of the comic homepage, only while actually reading.
+
+<dl>
+  <dt>Shortcuts:</dt>
+  <dd>Previous chapter: CTRL + Left arrow key</dd>
+  <dd>Next chapter: CTRL + Right arrow key</dd>
+</dl>
+
+## Webtoons Terms of Service remover
+
+This one I mostly made because I though it was funny. While I was working on [Webtoons Reader Mode](https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/styles/webtoons_reader-mode.user.css) I was deleting some divs too see what would happen, and lo and behold, the TOS box suddenly popped up.
+
+So I removed it. Because why not.

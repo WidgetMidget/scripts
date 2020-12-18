@@ -22,15 +22,15 @@ var prvCh = function(prv){
 var nxtCh = function(nxt){
   var nxtId = $('li' + ".next").find('a').filter("[href]");
   if ($(nxtId).attr("href") == "null") {} else {window.open($(nxtId).attr("href"),"_self")}
-}
+};
 
 document.addEventListener('keydown', function(e){
-if (e.ctrlKey)
-{
-  switch (e.keyCode)
+  if (e.ctrlKey)
   {
-    case 37: prvCh(-1); break;
-    case 39: nxtCh(1); break;
+    switch (e.keyCode)
+    {
+      case 37: prvCh(-1); break;
+      case 39: nxtCh(1); break;
+    }
   }
-}
 }, false);
