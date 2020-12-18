@@ -3,7 +3,7 @@
 // @icon         https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/webtoons.png
 // @author       WidgetMidget
 // @description  Ctrl + Arrow Key navigation.
-// @version      0.0.3
+// @version      1.0.37
 // @namespace    https://github.com/WidgetMidget/scripts-and-userstyles
 // @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/webtoons_com-accesskey-navigation.user.js
 // @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/webtoons_com-accesskey-navigation.user.js
@@ -15,12 +15,12 @@
 /* globals $ */
 
 var prvCh = function(prv){
-  var prvId = $('li' + ".previous").find('a').filter("[href]");
+  var prvId = $("._prevEpisode").filter("[href]");
   if ($(prvId).attr("href") == "null") {} else {window.open($(prvId).attr("href"),"_self")}
 };
 
 var nxtCh = function(nxt){
-  var nxtId = $('li' + ".next").find('a').filter("[href]");
+  var nxtId = $("._nextEpisode").filter("[href]");
   if ($(nxtId).attr("href") == "null") {} else {window.open($(nxtId).attr("href"),"_self")}
 };
 
