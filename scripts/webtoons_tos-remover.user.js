@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         [WM] Webtoons tos remover
-// @icon         https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/webtoons.png
+// @namespace    https://github.com/WidgetMidget/scripts-and-userstyles
 // @author       WidgetMidget
 // @description  Removes the terms of service section from the DOM
-// @version      1.2.14
-// @namespace    https://github.com/WidgetMidget/scripts-and-userstyles
+// @version      1.2.16
+// @icon         https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/webtoons.png
 // @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/webtoons_tos-remover.user.js
 // @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/webtoons_tos-remover.user.js
 // @supportURL   https://github.com/WidgetMidget/scripts-and-userstyles/issues

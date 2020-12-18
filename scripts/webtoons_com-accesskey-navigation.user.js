@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         [WM] Accesskey Navigation for Webtoons
-// @icon         https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/webtoons.png
+// @namespace    https://github.com/WidgetMidget/scripts-and-userstyles
 // @author       WidgetMidget
 // @description  Ctrl + Arrow Key navigation.
-// @version      1.0.37
-// @namespace    https://github.com/WidgetMidget/scripts-and-userstyles
+// @version      1.0.39
+// @icon         https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/webtoons.png
 // @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/webtoons_com-accesskey-navigation.user.js
 // @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/webtoons_com-accesskey-navigation.user.js
 // @supportURL   https://github.com/WidgetMidget/scripts-and-userstyles/issues
