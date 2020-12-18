@@ -3,7 +3,7 @@
 // @namespace	https://github.com/WidgetMidget/scripts-and-userstyles
 // @author      WidgetMidget
 // @description Ctrl + Arrow Key navigation.
-// @version     2.6.10
+// @version     2.6.11
 // @icon		https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/kobatochan.png
 // @updateURL   https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/kobatochan_com-accesskey-navigation.user.js
 // @downloadURL https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/kobatochan_com-accesskey-navigation.user.js
@@ -22,7 +22,7 @@ var prvCh = function(prv){
 var nxtCh = function(nxt){
     var nxtId = $('div').find('a').filter(':contains("Next Chapter >>")');
     if ($(nxtId).attr("href") == "null") {} else {window.open($(nxtId).attr("href"),"_self")}
-}
+};
 
 var prvPg = function(prv){
     var prvPgId = $('div').find('a').filter(':contains("« Previous Page")');
@@ -32,7 +32,7 @@ var prvPg = function(prv){
 var nxtPg = function(nxt){
     var nxtPgId = $('div').find('a').filter(':contains("Next Page »")');
     if ($(nxtPgId).attr("href") == "null") {} else {window.open($(nxtPgId).attr("href"),"_self")}
-}
+};
 
 document.addEventListener('keydown', function(e){
 	if (e.ctrlKey)

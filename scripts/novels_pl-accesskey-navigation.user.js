@@ -3,7 +3,7 @@
 // @namespace   https://github.com/WidgetMidget/scripts-and-userstyles
 // @author      WidgetMidget
 // @description Ctrl + Arrow Key navigation.
-// @version     1.2.10
+// @version     1.2.11
 // @icon        https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/novels-pl.png
 // @updateURL   https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/novels_pl-accesskey-navigation.user.js
 // @downloadURL https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/novels_pl-accesskey-navigation.user.js
@@ -22,7 +22,7 @@ var prvCh = function(prv){
 var nxtCh = function(nxt){
     var nxtId = $('li' + ".next").find('a').filter("[href]");
     if ($(nxtId).attr("href") == "null") {} else {window.open($(nxtId).attr("href"),"_self")}
-}
+};
 
 document.addEventListener('keydown', function(e){
 	if (e.ctrlKey)
