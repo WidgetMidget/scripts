@@ -3,7 +3,7 @@
 // @namespace	 https://github.com/WidgetMidget/scripts-and-userstyles
 // @author       WidgetMidget
 // @description  Redirects from Google while keeping your query.
-// @version      1.32.66
+// @version      1.33.66
 // @icon         https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/duckduckgo.png
 // @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/google_to_duckduckgo.user.js
 // @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/google_to_duckduckgo.user.js
