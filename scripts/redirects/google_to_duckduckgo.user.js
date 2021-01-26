@@ -8,6 +8,7 @@
 // @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/google_to_duckduckgo.user.js
 // @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/google_to_duckduckgo.user.js
 // @supportURL   https://github.com/WidgetMidget/scripts-and-userstyles/issues
+// @noframes
 // @include      https://www.google.com/*
 // @include      https://www.google.ad/*
 // @include      https://www.google.ae/*
