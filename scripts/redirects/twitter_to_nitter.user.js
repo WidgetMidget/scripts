@@ -12,4 +12,4 @@
 // ==/UserScript==
 
 var initialPage = location.pathname + location.search;
-location.replace('https://nitter.net' + initialPage);
+location.replace('https://nitter.eu' + initialPage);
