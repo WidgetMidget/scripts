@@ -2,7 +2,7 @@
 // @name         [WM] twitter to nitter.net redirect
 // @namespace	 https://github.com/WidgetMidget/scripts-and-userstyles
 // @author       WidgetMidget
-// @version      2.1.3
+// @version      2.2.3
 // @icon         https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/twitter.png
 // @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/twitter_to_nitter.user.js
 // @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/twitter_to_nitter.user.js
