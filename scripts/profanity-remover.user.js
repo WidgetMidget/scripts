@@ -3,7 +3,7 @@
 // @namespace    https://github.com/WidgetMidget/scripts-and-userstyles
 // @author       WidgetMidget
 // @description  Removes various profanities, though the script probably isn't very stable...
-// @version      0.3.6
+// @version      1.4.21
 // @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/profanity-remover.user.js
 // @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/profanity-remover.user.js
 // @supportURL   https://github.com/WidgetMidget/scripts-and-userstyles/issues
@@ -38,10 +38,10 @@ var l = recursiveFindTextNodes(document.body);
 
 for(var i = 0; i < l.length; i++) {
   var t = l[i].nodeValue;
-  t = t.replace(/fucking|motherfucker|fucker|fucked|fuck|pissed|piss/gi, "[REDACTED]");
-  t = t.replace(/shitty|shit/gi, "[REDACTED]");
-  t = t.replace(/nigger/gi, "[REDACTED]");
-  t = t.replace(/cock|dick|cunt/gi, "[REDACTED]");
-  t = t.replace(/jesusfreak|god-awful/gi, "[REDACTED]");
+  t = t.replace(/^fucking$|^mothafucka$|^motherfucker$|^fucker$|^fucked$|^fuckular$|^fucks$|^fuck$|^pissed$|^piss$/gi, "[REDACTED]");
+  t = t.replace(/^bullshit$|^shittiness$|^shitty$|^batshit$|^shit$/gi, "[REDACTED]");
+  t = t.replace(/^nigger$/gi, "[REDACTED]");
+  t = t.replace(/^cock$|^dick$|^cunt$/gi, "[REDACTED]");
+  t = t.replace(/^jesusfreak$|^god-awful$/gi, "[REDACTED]");
   l[i].nodeValue = t;
 }
