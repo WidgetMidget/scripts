@@ -3,7 +3,7 @@
 // @namespace    https://github.com/WidgetMidget/scripts-and-userstyles
 // @author       WidgetMidget
 // @description  Removes various profanities, though the script probably isn't very stable...
-// @version      1.4.22
+// @version      1.4.23
 // @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/profanity-remover.user.js
 // @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/profanity-remover.user.js
 // @supportURL   https://github.com/WidgetMidget/scripts-and-userstyles/issues
@@ -43,5 +43,6 @@ for(var i = 0; i < l.length; i++) {
   t = t.replace(/\nigger\b/gi, "[REDACTED]");
   t = t.replace(/\cock\b|\dick\b|\cunt\b/gi, "[REDACTED]");
   t = t.replace(/\jesusfreak\b|\god-awful\b/gi, "[REDACTED]");
+  t = t.replace(/shut the f up/gi, "[REDACTED]");
   l[i].nodeValue = t;
 }
