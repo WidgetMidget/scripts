@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] Active Translations Reader Mode
-@version        0.8.1
+@version        0.8.2
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on a-t.nu
 @namespace      https://github.com/WidgetMidget
@@ -23,7 +23,7 @@
     }
     
     body.reading-manga .site-footer a.nav-btn {
-        color: darkslategray;
+        color: #262626;
         padding: 0px;
     }
     
