@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name           [WM] Active Translations Reader Mode
+@version        0.5.1
+@author         WidgetMidget
+@description    Creates a more pleasant reading experience on a-t.nu
+@namespace      https://github.com/WidgetMidget
+@homepageURL    https://github.com/WidgetMidget/scripts-and-userstyles
+@supportURL     https://github.com/WidgetMidget/scripts-and-userstyles/issues
+@updateURL      https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/styles/active-translations_reader-mode.user.css
+==/UserStyle== */
+
+@-moz-document domain("a-t.nu") {
+    body.reading-manga .site-footer {
+        height: 20px;
+    }
+    
+    body.reading-manga .site-footer .footer-bottom-nav-right {
+        padding: 0px;
+    }
+    
+    .align-items-center {
+        align-items: normal !important;
+    }
+    
+    body.reading-manga .site-footer a.nav-btn {
+        padding: 0px;
+    }
+    
+    .btn {
+        padding: 0px;
+    }
+}
