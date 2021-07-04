@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] Active Translations Reader Mode
-@version        0.5.1
+@version        0.7.1
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on a-t.nu
 @namespace      https://github.com/WidgetMidget
@@ -28,5 +28,15 @@
     
     .btn {
         padding: 0px;
+    }
+    
+    body.reading-manga .site-footer .container, body.reading-manga .site-footer .container .row {
+        max-width: min-content !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .site-header .main-navigation.style-1 {
+        border-bottom: none;
     }
 }

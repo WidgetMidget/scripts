@@ -36,6 +36,14 @@ Only thing to note is that I left the navbar at the top of the window in the pic
 
 ![comparison6](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/webtoons-reader-mode-comparison.png)
 
+## Active Translations Reader Mode
+
+This is just a quick and dirty stylesheet to make the default layout of a-t.nu be a bit more bearable.
+
+Considering they're changing it often, at the moment, this is subject to change or being archived.
+
+![comparison7](https://github.com/WidgetMidget/scripts-and-userstyles/blob/master/resources/a-t_nu-comparison.png)
+
 ## Hornyjail for Redditors (WIP (basically non-functional))
 
 Just a fun little thing I made while bored, I'll update it as I go. All it does is send you to hornyjail if you visit any subreddits with nsfw, porn or hentai in it's name as well as some named ones like gonewild, etc.
