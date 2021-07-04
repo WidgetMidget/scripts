@@ -3,7 +3,7 @@
 // @namespace    https://github.com/WidgetMidget/scripts-and-userstyles
 // @author       WidgetMidget
 // @description  Removes various profanities, though the script probably isn't very stable...
-// @version      1.4.23
+// @version      1.4.27
 // @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/profanity-remover.user.js
 // @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/profanity-remover.user.js
 // @supportURL   https://github.com/WidgetMidget/scripts-and-userstyles/issues
@@ -41,6 +41,7 @@ for(var i = 0; i < l.length; i++) {
   t = t.replace(/\fucking\b|\mothafucka\b|\motherfucker\b|\fucker\b|\fucked\b|\fuckular\b|\fucks\b|\fuck\b|\pissed\b|\piss\b/gi, "[REDACTED]");
   t = t.replace(/\bullshit\b|\shittiness\b|\shitty\b|\batshit\b|\shit\b/gi, "[REDACTED]");
   t = t.replace(/\nigger\b/gi, "[REDACTED]");
+  t = t.replace(/\damn\b|\damned\b|\damnit\b|\dammit\b/gi, "[REDACTED]");
   t = t.replace(/\cock\b|\dick\b|\cunt\b/gi, "[REDACTED]");
   t = t.replace(/\jesusfreak\b|\god-awful\b/gi, "[REDACTED]");
   t = t.replace(/shut the f up/gi, "[REDACTED]");
