@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] Active Translations Reader Mode
-@version        0.8.2
+@version        0.8.3
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on a-t.nu
 @namespace      https://github.com/WidgetMidget
@@ -40,4 +40,15 @@
     .site-header .main-navigation.style-1 {
         border-bottom: none;
     }
+
+    /* These scum of people think it's a good idea to put the actual story text in pseudo-elements, specifically ::before and ::after as content.
+    Looks like it is served that way from the server, which is reeaaally annoying. All I wanted was to copy a line and add it to a comment.
+    The code below removes the select disabling for the entire site, but it doesn't actually work that well, in regards to what is noted above... I'll see if I find a way around it later. */
+    /* * {
+    /*     user-select: auto !important;           /* supported by Chrome and Opera */
+    /*     -webkit-user-select: auto !important;   /* Safari */
+    /*     -khtml-user-select: auto !important;    /* Konqueror HTML */
+    /*     -moz-user-select: auto !important;      /* Firefox */
+    /*     -ms-user-select: auto !important;       /* Internet Explorer/Edge */
+    /* } */
 }
