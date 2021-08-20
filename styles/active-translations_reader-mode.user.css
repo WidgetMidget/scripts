@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] Active Translations Reader Mode
-@version        0.8.3
+@version        0.9.3
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on a-t.nu
 @namespace      https://github.com/WidgetMidget
@@ -51,4 +51,11 @@
     /*     -moz-user-select: auto !important;      /* Firefox */
     /*     -ms-user-select: auto !important;       /* Internet Explorer/Edge */
     /* } */
+	
+	/* I have disabled all scripts (there are like 46), and text size is controlled by a script loading, running and then /adding/ the changes you've set... instead of just changing already present variables.
+    Seriously stupid. You end up with the text loading at default size, and then visibly becoming larger or smaller after a few real-time seconds of wait... this is instant... :/ I want to shoot whoever made the site. */
+    .text-left {
+        font-size: 21px;
+        line-height: 31.5px;
+    }
 }
