@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [WM] Wuxiaworld Reader Mode
-@version        1.0.23
+@version        1.0.24
 @author         WidgetMidget
 @description    Creates a more pleasant reading experience on wuxiaworld.
 @namespace      https://github.com/WidgetMidget
@@ -20,6 +20,12 @@
         width: 1268px !important;
         position: relative;
             left: 20px;
+    }
+    
+    /* Just some simple padding for the text */
+    #chapter-content {
+        padding-left: 200px;
+        padding-right: 200px;
     }
     
     /* Comment section align with content section */
