@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           [Frg] Webnovel Reader Mode
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.1.0
 @author         Frigvid
 @description    Creates a more pleasant reading experience on webnovel.com.
 @namespace      https://github.com/WidgetMidget
@@ -21,24 +21,34 @@
         display: none;
     }
     
-    /* Removes the Webnovel watermark, and other things, I guess? Found at https://uso.kkx.one/style/151499 @L19-23 */
-    .g_footer,  .g_txt_over ._readmore, .bt-membership, .m-gt-box, .chapter-pop-tip, .operate-bar, .user-links-wrap, .cha-info p, .m-comment-bd ._readmore, .para-comment-num {
-        display: none;
+    /* Change the webnovel watermark marging. */
+    .cha-info p {
+        margin-top: unset;
     }
     
-    /* Changes the size of the chapter. Found at https://uso.kkx.one/style/151499 @L25-32 */
+    /* Changes comments and voting button margins. */
+    .user-links-wrap, .pb16 {
+        padding-top: unset;
+        padding-bottom: unset;
+    }
+    
+    /* Changes comment colors. */
+    ._color3, .c_l {
+        color: #2d2e31;
+    }
+    
+    /* Hides comment amount counter because color shares its class with the "creators' thoughts" box content. */
+    .j_comment_title.c_m.lh16.fs12.db.mb2.mt4 { display: none; }
+    
+    /* Changes the size of the chapter. */
     .cha-page, .m-comment-bd, .g_txt_over {
-        min-width: 0%;
         max-width: 60%;
-        flex: 100%;
-        min-height: 0px;
-        max-height: none;
     }
     
-    /* Changes the size of the text. Found at https://uso.kkx.one/style/151499 @L52-56 */
-    .cha-page-in, .cha-words, .cha-tit h3 {
+    /* Changes the size of the text. */
+    .cha-page-in, .cha-words {
         font-size: 30px;
-        line-height: 1.25em;
+        line-height: 1.2em;
     }
     
     /* Changes the right sidebar color and size. */
