@@ -1,0 +1,66 @@
+/* ==UserStyle==
+@name           [Frg] Webnovel Reader Mode
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@author         Frigvid
+@description    Creates a more pleasant reading experience on webnovel.com.
+@namespace      https://github.com/WidgetMidget
+@homepageURL    https://github.com/WidgetMidget/scripts-and-userstyles
+@supportURL     https://github.com/WidgetMidget/scripts-and-userstyles/issues
+@updateURL      https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/styles/active-translations_reader-mode.user.css
+==/UserStyle== */
+
+@-moz-document domain("webnovel.com") {
+    /* Changes the header position to be absolute instead of stickied on the page. */
+    .pf {
+        position: absolute;
+    }
+	
+    /* Hides the header app ad button and login button. */
+    ._reverse.ui-tips.pr.ml8.mr16.fl.j_getApp._secondary._s.bt, .fl.j_loginWrap {
+        display: none;
+    }
+    
+    /* Removes the Webnovel watermark, and other things, I guess? Found at https://uso.kkx.one/style/151499 @L19-23 */
+    .g_footer,  .g_txt_over ._readmore, .bt-membership, .m-gt-box, .chapter-pop-tip, .operate-bar, .user-links-wrap, .cha-info p, .m-comment-bd ._readmore, .para-comment-num {
+        display: none;
+    }
+    
+    /* Changes the size of the chapter. Found at https://uso.kkx.one/style/151499 @L25-32 */
+    .cha-page, .m-comment-bd, .g_txt_over {
+        min-width: 0%;
+        max-width: 60%;
+        flex: 100%;
+        min-height: 0px;
+        max-height: none;
+    }
+    
+    /* Changes the size of the text. Found at https://uso.kkx.one/style/151499 @L52-56 */
+    .cha-page-in, .cha-words, .cha-tit h3 {
+        font-size: 30px;
+        line-height: 1.25em;
+    }
+    
+    /* Changes the right sidebar color and size. */
+    .cha-fly {
+        background-color: unset;
+        width: 24px;
+    }
+    
+    /* Changes the icon colors, unsets the font size and removes the line separators between menu choises. */
+    .cha-tools a {
+        font-size: unset;
+        color: #4b4b4d;
+        border-top: unset;
+        border-bottom: unset;
+    }
+    
+    /* Disables anti-selection on the entire page. */
+    * {
+        user-select: auto !important;           /* supported by Chrome and Opera */
+        -webkit-user-select: auto !important;   /* Safari */
+        -khtml-user-select: auto !important;    /* Konqueror HTML */
+        -moz-user-select: auto !important;      /* Firefox */
+        -ms-user-select: auto !important;       /* Internet Explorer/Edge */
+    }
+}
