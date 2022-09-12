@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           [Frg] Webnovel Reader Mode
 @namespace      github.com/openstyles/stylus
-@version        1.1.0
+@version        1.1.1
 @author         Frigvid
 @description    Creates a more pleasant reading experience on webnovel.com.
 @namespace      https://github.com/WidgetMidget
@@ -43,6 +43,12 @@
     /* Changes the size of the chapter. */
     .cha-page, .m-comment-bd, .g_txt_over {
         max-width: 60%;
+    }
+    
+    /* Changes the content backgroun color. */
+    .cha-page {
+        background-color: #000;
+        border-color: #000;
     }
     
     /* Changes the size of the text. */
