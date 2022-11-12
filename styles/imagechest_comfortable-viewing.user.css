@@ -1,12 +1,12 @@
 /* ==UserStyle==
-@name           [WM] ImageChest comfortable viewing
-@version        1.0.1
-@author         WidgetMidget
+@name           [Frg] ImageChest comfortable viewing
+@version        1.0.2
+@author         Frigvid
 @description    Creates a more pleasant viewing experience on imagechest galleries
-@namespace      https://github.com/WidgetMidget
-@homepageURL    https://github.com/WidgetMidget/scripts-and-userstyles
-@supportURL     https://github.com/WidgetMidget/scripts-and-userstyles/issues
-@updateURL      https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/styles/imagechest_comfortable-viewing.user.css
+@namespace      https://github.com/Frigvid
+@homepageURL    https://github.com/Frigvid/scripts-and-userstyles
+@supportURL     https://github.com/Frigvid/scripts-and-userstyles/issues
+@updateURL      https://github.com/Frigvid/scripts-and-userstyles/raw/master/styles/imagechest_comfortable-viewing.user.css
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://imgchest.com/p/") {

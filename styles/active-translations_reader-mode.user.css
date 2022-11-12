@@ -1,12 +1,12 @@
 /* ==UserStyle==
-@name           [WM] Active Translations Reader Mode
-@version        0.9.3
-@author         WidgetMidget
+@name           [Frg] Active Translations Reader Mode
+@version        0.9.4
+@author         Frigvid
 @description    Creates a more pleasant reading experience on a-t.nu
-@namespace      https://github.com/WidgetMidget
-@homepageURL    https://github.com/WidgetMidget/scripts-and-userstyles
-@supportURL     https://github.com/WidgetMidget/scripts-and-userstyles/issues
-@updateURL      https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/styles/active-translations_reader-mode.user.css
+@namespace      https://github.com/Frigvid
+@homepageURL    https://github.com/Frigvid/scripts-and-userstyles
+@supportURL     https://github.com/Frigvid/scripts-and-userstyles/issues
+@updateURL      https://github.com/Frigvid/scripts-and-userstyles/raw/master/styles/active-translations_reader-mode.user.css
 ==/UserStyle== */
 
 @-moz-document domain("a-t.nu") {

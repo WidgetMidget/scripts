@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name         [WM] Webtoons tos remover
-// @namespace    https://github.com/WidgetMidget/scripts-and-userstyles
-// @author       WidgetMidget
+// @name         [Frg] Webtoons tos remover
+// @namespace    https://github.com/Frigvid/scripts-and-userstyles
+// @author       Frigvid
 // @description  Removes the terms of service section from the DOM
-// @version      1.2.16
-// @icon         https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/webtoons.png
-// @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/webtoons_tos-remover.user.js
-// @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/webtoons_tos-remover.user.js
-// @supportURL   https://github.com/WidgetMidget/scripts-and-userstyles/issues
+// @version      1.2.17
+// @icon         https://raw.githubusercontent.com/Frigvid/scripts-and-userstyles/master/resources/favicons/webtoons.png
+// @updateURL    https://github.com/Frigvid/scripts-and-userstyles/raw/master/scripts/webtoons_tos-remover.user.js
+// @downloadURL  https://github.com/Frigvid/scripts-and-userstyles/raw/master/scripts/webtoons_tos-remover.user.js
+// @supportURL   https://github.com/Frigvid/scripts-and-userstyles/issues
 // @match        *://*.webtoons.com/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // ==/UserScript==

@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         [WM] sefuart.net 'http' to 'https' redirect
-// @namespace    https://github.com/WidgetMidget/scripts-and-userstyles
-// @author       WidgetMidget
-// @version      1.1.1
-// @icon         https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/sefuart-net.png
-// @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/http-to-https/sefuart-net_http_to_https.user.js
-// @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/http-to-https/sefuart-net_http_to_https.user.js
-// @supportURL   https://github.com/WidgetMidget/scripts-and-userstyles/issues
+// @name         [Frg] sefuart.net 'http' to 'https' redirect
+// @namespace    https://github.com/Frigvid/scripts-and-userstyles
+// @author       Frigvid
+// @version      1.1.2
+// @icon         https://raw.githubusercontent.com/Frigvid/scripts-and-userstyles/master/resources/favicons/sefuart-net.png
+// @updateURL    https://github.com/Frigvid/scripts-and-userstyles/raw/master/scripts/redirects/http-to-https/sefuart-net_http_to_https.user.js
+// @downloadURL  https://github.com/Frigvid/scripts-and-userstyles/raw/master/scripts/redirects/http-to-https/sefuart-net_http_to_https.user.js
+// @supportURL   https://github.com/Frigvid/scripts-and-userstyles/issues
 // @match        http://*.sefuart.net/*
 // ==/UserScript==
 

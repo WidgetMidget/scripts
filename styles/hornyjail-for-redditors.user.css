@@ -1,12 +1,12 @@
 /* ==UserStyle==
-@name           [WM] Hornyjail for Redditors
-@version        1.1.39
-@author         WidgetMidget
+@name           [Frg] Hornyjail for Redditors
+@version        1.1.40
+@author         Frigvid
 @description    Hornyjail! Hornyjail! Hornyjail! MORE REDDITORS FOR THE HORNYJAIL THRONE!
-@namespace      https://github.com/WidgetMidget
-@homepageURL    https://github.com/WidgetMidget/scripts-and-userstyles
-@supportURL     https://github.com/WidgetMidget/scripts-and-userstyles/issues
-@updateURL      https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/styles/hornyjail-for-redditors.user.css
+@namespace      https://github.com/Frigvid
+@homepageURL    https://github.com/Frigvid/scripts-and-userstyles
+@supportURL     https://github.com/Frigvid/scripts-and-userstyles/issues
+@updateURL      https://github.com/Frigvid/scripts-and-userstyles/raw/master/styles/hornyjail-for-redditors.user.css
 ==/UserStyle== */
 
 @-moz-document regexp("(http|https)://www\\.reddit\\.(com)/r/(nsfw|Nsfw|NSFW|porn|Porn|PORN|hentai|Hentai|HENTAI).*/.*") {

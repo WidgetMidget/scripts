@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name         [WM] Google to DuckDuckGo redirect
-// @namespace	 https://github.com/WidgetMidget/scripts-and-userstyles
-// @author       WidgetMidget
+// @name         [Frg] Google to DuckDuckGo redirect
+// @namespace	 https://github.com/Frigvid/scripts-and-userstyles
+// @author       Frigvid
 // @description  Redirects from Google while keeping your query.
-// @version      1.33.66
-// @icon         https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/duckduckgo.png
-// @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/google_to_duckduckgo.user.js
-// @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/google_to_duckduckgo.user.js
-// @supportURL   https://github.com/WidgetMidget/scripts-and-userstyles/issues
+// @version      1.33.67
+// @icon         https://raw.githubusercontent.com/Frigvid/scripts-and-userstyles/master/resources/favicons/duckduckgo.png
+// @updateURL    https://github.com/Frigvid/scripts-and-userstyles/raw/master/scripts/redirects/google_to_duckduckgo.user.js
+// @downloadURL  https://github.com/Frigvid/scripts-and-userstyles/raw/master/scripts/redirects/google_to_duckduckgo.user.js
+// @supportURL   https://github.com/Frigvid/scripts-and-userstyles/issues
 // @noframes
 // @include      https://www.google.com/*
 // @include      https://www.google.ad/*

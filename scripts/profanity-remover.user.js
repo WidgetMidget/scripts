@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         [WM] Profanity remover
-// @namespace    https://github.com/WidgetMidget/scripts-and-userstyles
-// @author       WidgetMidget
+// @name         [Frg] Profanity remover
+// @namespace    https://github.com/Frigvid/scripts-and-userstyles
+// @author       Frigvid
 // @description  Removes various profanities, though the script probably isn't very stable...
 // @version      1.4.27
-// @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/profanity-remover.user.js
-// @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/profanity-remover.user.js
-// @supportURL   https://github.com/WidgetMidget/scripts-and-userstyles/issues
+// @updateURL    https://github.com/Frigvid/scripts-and-userstyles/raw/master/scripts/profanity-remover.user.js
+// @downloadURL  https://github.com/Frigvid/scripts-and-userstyles/raw/master/scripts/profanity-remover.user.js
+// @supportURL   https://github.com/Frigvid/scripts-and-userstyles/issues
 // @include      http://*
 // @include      https://*
 // @exclude      https://github.com/*

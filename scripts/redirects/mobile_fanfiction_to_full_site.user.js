@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         [WM] Fanfiction.net mobile to full site redirect
-// @namespace	 https://github.com/WidgetMidget/scripts-and-userstyles
-// @author       WidgetMidget
-// @version      2.3.8
-// @icon         https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/fanfiction-net.png
-// @updateURL    https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/mobile_fanfiction_to_full_site.user.js
-// @downloadURL  https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/redirects/mobile_fanfiction_to_full_site.user.js
-// @supportURL   https://github.com/WidgetMidget/scripts-and-userstyles/issues
+// @name         [Frg] Fanfiction.net mobile to full site redirect
+// @namespace	 https://github.com/Frigvid/scripts-and-userstyles
+// @author       Frigvid
+// @version      2.3.9
+// @icon         https://raw.githubusercontent.com/Frigvid/scripts-and-userstyles/master/resources/favicons/fanfiction-net.png
+// @updateURL    https://github.com/Frigvid/scripts-and-userstyles/raw/master/scripts/redirects/mobile_fanfiction_to_full_site.user.js
+// @downloadURL  https://github.com/Frigvid/scripts-and-userstyles/raw/master/scripts/redirects/mobile_fanfiction_to_full_site.user.js
+// @supportURL   https://github.com/Frigvid/scripts-and-userstyles/issues
 // @match        https://m.fanfiction.net/*
 // ==/UserScript==
 

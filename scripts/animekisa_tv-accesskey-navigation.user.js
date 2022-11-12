@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name        [WM] Accesskey Navigation for Animekisa.tv
-// @namespace   https://github.com/WidgetMidget/scripts-and-userstyles
-// @author      WidgetMidget
+// @name        [Frg] Accesskey Navigation for Animekisa.tv
+// @namespace   https://github.com/Frigvid/scripts-and-userstyles
+// @author      Frigvid
 // @description Ctrl + Arrow Key navigation.
-// @version     1.1.31
-// @icon        https://raw.githubusercontent.com/WidgetMidget/scripts-and-userstyles/master/resources/favicons/animekisa-tv.png
-// @updateURL   https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/animekisa_tv-accesskey-navigation.user.js
-// @downloadURL https://github.com/WidgetMidget/scripts-and-userstyles/raw/master/scripts/animekisa_tv-accesskey-navigation.user.js
-// @supportURL  https://github.com/WidgetMidget/scripts-and-userstyles/issues
+// @version     1.1.32
+// @icon        https://raw.githubusercontent.com/Frigvid/scripts-and-userstyles/master/resources/favicons/animekisa-tv.png
+// @updateURL   https://github.com/Frigvid/scripts-and-userstyles/raw/master/scripts/animekisa_tv-accesskey-navigation.user.js
+// @downloadURL https://github.com/Frigvid/scripts-and-userstyles/raw/master/scripts/animekisa_tv-accesskey-navigation.user.js
+// @supportURL  https://github.com/Frigvid/scripts-and-userstyles/issues
 // @match       *://*.animekisa.tv/*
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // ==/UserScript==
