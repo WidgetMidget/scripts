@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [Frg] Old reddit reader-mode
-@version        1.0.1
+@version        1.0.3
 @author         Frigvid
 @description    Creates a more pleasant reading experience on old.reddit.com (RES) by moving the OP comment closer to the middle.
 @namespace      https://github.com/Frigvid
@@ -10,7 +10,13 @@
 ==/UserStyle== */
 
 @-moz-document regexp('https://www.reddit.com/r/.*/comments/.*') {
-    .md {
+    /* Moves the OP comment closer to the middle of the screen */
+    #siteTable .md {
         margin-left: 25% !important;
+    }
+    
+    /* Removes the RES comment weight background */
+    .voteWeight {
+        background-color: unset !important;
     }
 }
