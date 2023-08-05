@@ -1,0 +1,58 @@
+/* ==UserStyle==
+@name           [Frg] Baekdal.com better article layout
+@version        1.0.0
+@author         Frigvid
+@description    Hides certain elements to create a better layout for the article section of the website.
+@namespace      https://github.com/frigvid
+@homepageURL    https://github.com/frigvid/scripts-and-userstyles
+@supportURL     https://github.com/frigvid/scripts-and-userstyles/issues
+@updateURL      https://github.com/frigvid/scripts-and-userstyles/raw/master/styles/beakdal-com_better-articles.user.css
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.baekdal.com/thoughts/") {
+    :root {
+        --height-menu: 70px;
+    }
+    
+    /* Hides unecessary elements.
+     * I almost want to thank the guy for how normally the website is layed out.
+     * Doing this is usually the worst part because of the "obfuscation" many websites do. */
+    #Sidebar,
+    #aboutme,
+    #footer,
+    .articleslist,
+    div.greydivider,
+    div.greydivideru {
+        display: none;
+    }
+    
+    /* Removes the left margin meant for the `Sidebar`. */
+    #Article {
+        /* Works without `!important`, but may be imperative to add. */
+        margin: unset;
+    }
+    
+    /* Sets the menu container to be a better fitting size to the new style. */
+    #Menucontainer {
+        height: var(--height-menu);
+    }
+    
+    /* Also sets the menu divider to the same height of the menu container. */
+    #Menu {
+        height: var(--height-menu);
+    }
+    
+    /* Actual menu modifications. */
+    #Menu * {
+        /* Removes the padding of the menu items. */
+        padding: unset !important;
+        
+        /* Removes the left border next to menu items. */
+        border-left: unset !important;
+    }
+    
+    /* Removes padding for the logo, so it'll be inline with the menu items. */
+    #logo {
+        top: unset !important;
+    }
+}
