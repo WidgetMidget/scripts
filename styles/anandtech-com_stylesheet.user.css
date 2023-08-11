@@ -1,0 +1,51 @@
+/* ==UserStyle==
+@name           [Frg] anandtech.com wider article
+@version        1.0.0
+@author         Frigvid
+@description    Hides the right sidebar and enlarges the article content.
+@namespace      https://github.com/Frigvid
+@homepageURL    https://github.com/Frigvid/scripts-and-userstyles
+@supportURL     https://github.com/Frigvid/scripts-and-userstyles/issues
+@updateURL      https://github.com/Frigvid/scripts-and-userstyles/raw/master/styles/anandtech-com_stylesheet.user.css
+@preprocessor default
+@dependencies css-nesting
+==/UserStyle== */
+@-moz-document regexp("https?://(?:[^./]+\.)?anandtech\.com/show/.*") {
+    /* CSS nesting: https://caniuse.com/?search=css%20nest */
+    .content, .breadcrumb {
+        width: 1001px;
+
+        .sidebar {
+            display: none;
+        }
+
+        .main_cont {
+            width: unset !important;
+        }
+    }
+    
+    .header {
+        #header_ad {
+            display: none;
+        }
+        
+        .logo {
+            display: none;
+        }
+        
+        .header_top_right {
+            padding: unset !important;
+            float: unset !important;
+            
+            .search_area {
+                display: none;
+            }
+            
+            .header_right_btm {
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+}
