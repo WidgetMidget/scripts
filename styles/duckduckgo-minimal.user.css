@@ -1,13 +1,25 @@
 /* ==UserStyle==
-@name           [Frg] duckduckgo remove distractions
-@version        1.0.1
+@name           [Frg] Duckduckgo remove distractions
+@version        1.0.2
 @author         Frigvid
-@description    Removes distractions from the duckduckgo search page, leaving only the search input.
+@description    Removes distractions from duckduckgo search page.
 @namespace      https://github.com/Frigvid
 @homepageURL    https://github.com/Frigvid/scripts-and-userstyles
 @supportURL     https://github.com/Frigvid/scripts-and-userstyles/issues
 @updateURL      https://github.com/Frigvid/scripts-and-userstyles/raw/master/styles/duckduckgo-minimal.user.css
 ==/UserStyle== */
+
+@-moz-document domain("duckduckgo.com"), domain("start.duckduckgo.com") {
+    /* Hides superfluous items in sidebar.
+     *
+     * Only works on browsers that support
+     * nested CSS. */
+    .nav-menu__list {
+        ul:not(.nav-menu--theme) {
+            display: none;
+        }
+    }
+}
 
 @-moz-document domain("duckduckgo.com") {
     /* Front page */
@@ -24,6 +36,15 @@
     div[class^="logo"],
     div[class^="tag-home"],
     div[class^="header--aside__item"] {
+        display: none;
+    }
+}
+
+@-moz-document url-prefix("https://duckduckgo.com/?t="), url-prefix("https://duckduckgo.com/?q=") {
+    /* Search */
+    div[class^="text_promo"],
+    div[class^="header--aside__item"],
+    div[class^="serp__bottom-right"] {
         display: none;
     }
 }
