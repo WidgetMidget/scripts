@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [Frg] Duckduckgo remove distractions
-@version        1.0.2
+@version        1.0.3
 @author         Frigvid
 @description    Removes distractions from duckduckgo search page.
 @namespace      https://github.com/Frigvid
@@ -10,14 +10,9 @@
 ==/UserStyle== */
 
 @-moz-document domain("duckduckgo.com"), domain("start.duckduckgo.com") {
-    /* Hides superfluous items in sidebar.
-     *
-     * Only works on browsers that support
-     * nested CSS. */
-    .nav-menu__list {
-        ul:not(.nav-menu--theme) {
-            display: none;
-        }
+    /* Hides superfluous items in sidebar. */
+    .nav-menu__list > ul:not(.nav-menu--theme) {
+        display: none;
     }
 }
 
