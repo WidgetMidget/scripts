@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           [Frg] duckduckgo remove distractions
+@version        1.0.1
+@author         Frigvid
+@description    Removes distractions from the duckduckgo search page, leaving only the search input.
+@namespace      https://github.com/Frigvid
+@homepageURL    https://github.com/Frigvid/scripts-and-userstyles
+@supportURL     https://github.com/Frigvid/scripts-and-userstyles/issues
+@updateURL      https://github.com/Frigvid/scripts-and-userstyles/raw/master/styles/duckduckgo-minimal.user.css
+==/UserStyle== */
+
+@-moz-document domain("duckduckgo.com") {
+    /* Front page */
+    div[class^="onboarding"],
+    p[class^="tagline"],
+    div[class*="HomepageDesktop"],
+    div[class*="logoStacked"] {
+        display: none;
+    }
+}
+
+@-moz-document domain("start.duckduckgo.com") {
+    /* Front page */
+    div[class^="logo"],
+    div[class^="tag-home"],
+    div[class^="header--aside__item"] {
+        display: none;
+    }
+}
