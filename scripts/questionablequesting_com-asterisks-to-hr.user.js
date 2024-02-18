@@ -3,13 +3,12 @@
 // @namespace   https://github.com/frigvid/scripts-and-userstyles
 // @author      frigvid
 // @description
-// @version     1.0.0
+// @version     1.0.1
 // @icon        https://www.google.com/s2/favicons?domain=questionablequesting.com
 // @updateURL   https://github.com/frigvid/scripts-and-userstyles/raw/master/scripts/questionablequesting_com-asterisks-to-hr.user.js
 // @downloadURL https://github.com/frigvid/scripts-and-userstyles/raw/master/scripts/questionablequesting_com-asterisks-to-hr.user.js
 // @supportURL  https://github.com/frigvid/scripts-and-userstyles/issues
 // @match       https://forum.questionablequesting.com/threads/*/reader
-// @require     https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // ==/UserScript==
 
 (function() {
