@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [Frg] Questionable Questing better reading layout
-@version        1.0.0
+@version        1.1.0
 @author         Frigvid
 @description    Hides sidebars in reader-mode threads. Designed with the UI.X Dark theme and 150% zoom in mind.
 @namespace      https://github.com/frigvid
@@ -10,6 +10,17 @@
 ==/UserStyle== */
 
 @-moz-document regexp("https://forum\.questionablequesting\.com/threads/.*?/reader") {
+    /* Hides the header, and lets you see it on hover. */
+    #header {
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    #header:hover {
+        opacity: 1;
+        transition: opacity 0.3s;
+    }
+    
     .message {
         /* Removes the user infobox to the left. */
         .messageUserInfo {
@@ -22,11 +33,12 @@
             
             /* Add additional padding, for zoom 150. */
             .messageContent {
-                padding: 50px !important;
+                padding-left: 250px !important;
+                padding-right: 250px !important;
                 
                 /* Make text bigger, for me' poor eyes. */
                 article > blockquote {
-                    font-size: 18pt;
+                    font-size: 14pt;
                 }
             }
         }
