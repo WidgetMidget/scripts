@@ -3,7 +3,7 @@
 // @namespace   https://github.com/frigvid/scripts-and-userstyles
 // @author      frigvid
 // @description
-// @version     1.5.0
+// @version     1.5.2
 // @icon        https://www.google.com/s2/favicons?domain=questionablequesting.com
 // @updateURL   https://github.com/frigvid/scripts-and-userstyles/raw/master/scripts/questionablequesting_com-better-reading.user.js
 // @downloadURL https://github.com/frigvid/scripts-and-userstyles/raw/master/scripts/questionablequesting_com-better-reading.user.js
@@ -33,6 +33,8 @@
             button.closest('.bbCodeSpoilerContainer').querySelectorAll('.SpoilerTarget').forEach(container => {
                 // Set the display of the container to 'unset'
                 container.style.display = 'unset';
+                container.style.background = 'unset';
+                container.style.border = 'unset';
                 // Ensure images within this container have their 'src' set for loading
                 container.querySelectorAll('img.lazyload').forEach(img => {
                     if (img.dataset.src) {
