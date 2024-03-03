@@ -3,7 +3,7 @@
 // @namespace   https://github.com/frigvid/scripts-and-userstyles
 // @author      frigvid
 // @description
-// @version     1.5.2
+// @version     1.5.3
 // @icon        https://www.google.com/s2/favicons?domain=questionablequesting.com
 // @updateURL   https://github.com/frigvid/scripts-and-userstyles/raw/master/scripts/questionablequesting_com-better-reading.user.js
 // @downloadURL https://github.com/frigvid/scripts-and-userstyles/raw/master/scripts/questionablequesting_com-better-reading.user.js
@@ -29,6 +29,7 @@
     function revealSpoilers() {
         document.querySelectorAll('.bbCodeSpoilerButton').forEach(function(button) {
             button.click();
+            button.style.display = 'none';
             // Find the associated image containers within the spoiler for each button
             button.closest('.bbCodeSpoilerContainer').querySelectorAll('.SpoilerTarget').forEach(container => {
                 // Set the display of the container to 'unset'
