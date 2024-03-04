@@ -9,7 +9,7 @@
 @updateURL      https://github.com/frigvid/scripts-and-userstyles/raw/master/styles/questionablequesting-com_better-reading.user.css
 ==/UserStyle== */
 
-@-moz-document regexp("https://forum\.questionablequesting\.com/threads/.*?/reader") {
+@-moz-document regexp("https://forum\.questionablequesting\.com/threads/.*?/reader.*?") {
     
     /* Hides the header, and lets you see it on hover. */
     #header {
@@ -32,7 +32,6 @@
         .messageInfo {
             margin-left: 0px !important;
             
-			/* Limit padding and such to "desktop" display sizes. */
             @media screen and (min-width: 1000px) {
                 /* Add additional padding, for zoom 150. */
                 .messageContent {
