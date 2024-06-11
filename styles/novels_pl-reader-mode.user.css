@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [Frg] Novels.pl Reader Mode
-@version        2.4.47
+@version        2.5.48
 @author         Frigvid
 @description    Creates a more pleasant reading experience on novels.pl. Requires "[WM] Userstyle companion for Novels.pl" for complete experience.
 @namespace      https://github.com/Frigvid
@@ -47,9 +47,9 @@
         transition: opacity 0.3s;
     }
     
-    /* Removes comments section. Never really seen it in use, so doubt it'll ever be necessary */
+    /* Removes comments section. Never really seen it in use, so doubt it'll ever be necessary. Also removes the "Read Chapter" header. */
     /* Might sometimes be buggy because it has to use nth-child, but the site is pretty uniform on chapter pages so I think it'll be fine */
-    div.panel:nth-child(13) {
+    .clearfix.panel-heading, .fb-background-color.centered.panel-body {
         display: none;
     }
     
@@ -98,5 +98,10 @@
     #back-to-top:hover {
         opacity: 1;
         transition: opacity 0.3s;
+    }
+    
+    /* Removes the ad at the top of the chapter. It's not a pretty solution however, and will likely be prone to breakage. */
+    #obrazek, .text-left.col-sm-8 > .panel-group {
+       display: none; 
     }
 }
