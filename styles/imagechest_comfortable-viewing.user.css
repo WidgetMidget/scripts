@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           [Frg] ImageChest comfortable viewing
-@version        1.0.2
+@version        1.1.0
 @author         Frigvid
 @description    Creates a more pleasant viewing experience on imagechest galleries
 @namespace      https://github.com/Frigvid
@@ -10,13 +10,26 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://imgchest.com/p/") {
-    /* random shit on the right side (div.col-md-4:nth-child(2)) */
-    .side-div {
-        display: none;
-    }
-    
-    .col-md-8 {
-        flex: 0 0 100%;
-        max-width: 100%;
+    /* Image Chest was updated a while back.
+     * This solves the issue, but is likely to be fragile,
+     * and further changes will likely require additional
+     * fixes each time. But what can you do. ¯\_(ツ)_/¯
+     */
+    .container.mx-auto {
+        .grid.grid-cols-1.xl\:grid-cols-12 {
+            display: unset;
+            
+            > div:first-child,
+            > div:last-child {
+                display: none;
+            }
+
+            /* Not necessary, for now.
+            > div:nth-child(2) {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            */
+        }
     }
 }
